@@ -45,8 +45,6 @@ We perform the following two queries:
 
 1. The given graph can be represented as:
 
-graph1
-
 ![](https://s3.amazonaws.com/hr-challenge-images/5580/1470939600-bcdb0816eb-BFS.png)
 
 where our start node, s, is node 1. The shortest distances from s to the other nodes are one edge to node 2, one edge to node 3, and an infinite distance to node 4 (which it's not connected to). We then print node 1's distance to nodes 2, 3, and 4 (respectively) as a single line of space-separated integers: 
